@@ -19,6 +19,10 @@ python3 init.py
 
 - [Resnet in Tensorflow](https://github.com/taki0112/ResNet-Tensorflow/blob/f395de3a53ddd8bb53828c79bd3c17e77d59858d/ResNet.py) 
 
+    - customerized to run in my environment
+    - added early stopping
+    - added save and restore model when interrupted from training
+    - added support to tensorboard
 
 ### Tensorboard
 
