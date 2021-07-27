@@ -1,0 +1,4 @@
+/node_modules/
+/dist
+/functions/node_modules/
+.env
