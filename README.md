@@ -11,6 +11,11 @@ Application that use cnns (LeNet) to recognize the hand signs (0-5)
 
 - to check the frontend for the application please refer [here](sign_dataset/frontend)
 
+## [Holiday Challenge - Hackerearth](holiday_challenge)
+
+Got > 60 % accuracy for this hackerearth [challenge](https://www.hackerearth.com/problem/machine-learning/holiday-season-11-2c924626)
+
+- to check the model architecture , experimentations , code and for more details please refer [here](holiday_challenge)
 
 ## [Covid Twitter Analysis App](covid_twitter_app)
 
