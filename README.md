@@ -1,7 +1,7 @@
 # all_dl_projects
 all my deep learning projects with source code
 
-- [signs_app](sign_dataset)
+## [signs_app](sign_dataset)
 
 Application that use cnns (LeNet) to recognize the hand signs (0-5)
 
@@ -12,7 +12,7 @@ Application that use cnns (LeNet) to recognize the hand signs (0-5)
 - to check the frontend for the application please refer [here](sign_dataset/frontend)
 
 
-- [Covid Twitter Analysis App](covid_twitter_app)
+## [Covid Twitter Analysis App](covid_twitter_app)
 
 Application that uses twitter api to fetch the tweets having the hashtag covid-19 , does sentiment analysis , measure the polarity , categorizes labels for the tweets
     - to check the model architecture , experimentations , code and for more details  please refer [here](covid_twitter_app/model)
@@ -22,7 +22,7 @@ Application that uses twitter api to fetch the tweets having the hashtag covid-1
 - to check the frontend for the application please refer [here](covid_twitter_app/frontend)
 
 
-- [Question Answering App](q_and_a)
+## [Question Answering App](q_and_a)
 
 Application retrieves the answer to your question , if there is semantic similarity between the input and existing question
 
