@@ -15,7 +15,8 @@ Application that use cnns (LeNet) to recognize the hand signs (0-5)
 ## [Covid Twitter Analysis App](covid_twitter_app)
 
 Application that uses twitter api to fetch the tweets having the hashtag covid-19 , does sentiment analysis , measure the polarity , categorizes labels for the tweets
-    - to check the model architecture , experimentations , code and for more details  please refer [here](covid_twitter_app/model)
+
+- to check the model architecture , experimentations , code and for more details  please refer [here](covid_twitter_app/model)
 
 - to check the backend for the api please refer [here](covid_twitter_app/backend)
 
