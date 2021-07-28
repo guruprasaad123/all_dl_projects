@@ -1,0 +1,22 @@
+.loader 
+{
+  width : 64px;
+  height : 64px;
+  margin: 0 auto;
+  border-radius : 50%;
+  border : 4px solid grey;
+  border-top : 4px solid green;
+
+  animation: loading 2s infinite;
+  text-align: center;
+}
+
+@keyframes loading 
+{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,25 @@
+
+<div class="container">
+  <div style="text-align:center;margin-top:20%">
+      <h2 class="text-success">
+    Faq | productA
+  </h2>
+
+  <div class="input-group m-3">
+    
+    <input type="text" class="form-control" [(ngModel)]="text" placeholder="what is productA ?" (keyup.enter)="ask()" aria-label="Text input with segmented dropdown button">
+    <div class="input-group-append">
+      <button [disabled]="!text.length"  (click)="ask()" type="button" class="btn btn-outline-success">ask</button>
+    </div>
+
+  </div>
+
+  <div *ngIf="loading === true" class="loader"> </div>
+
+    <p *ngIf="loading===false" > the answer : {{answer}}</p>
+
+
+
+  </div>
+
+</div>
