@@ -15,6 +15,11 @@ Application that use cnns (LeNet) to recognize the hand signs (0-5)
 
 Got > 60 % accuracy for this hackerearth [challenge](https://www.hackerearth.com/problem/machine-learning/holiday-season-11-2c924626)
 
+- Tried these architectures
+
+    - Resnet - 18 , 34 , 50 , 101
+    - Inception - v1 , v3
+
 - to check the model architecture , experimentations , code and for more details please refer [here](holiday_challenge)
 
 ## [Covid Twitter Analysis App](covid_twitter_app)
