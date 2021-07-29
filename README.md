@@ -20,11 +20,31 @@ Got > 60 % accuracy for this hackerearth [challenge](https://www.hackerearth.com
     - Resnet - 18 , 34 , 50 , 101
     - Inception - v1 , v3
 
+- to check the model architecture , training , code and for more details  please refer [here](holiday_challenge)
 
 ## [German Traffic Sign Recognition Dataset (GTSRB)](GTSRB)
 
+- Trained the model from scratch on VGG-SE ( SE - squeeze and excitation ) , modified version of VGG net and got *> 90 %*
 
-- to check the model architecture , experimentations , code and for more details please refer [here](holiday_challenge)
+- Gained Insights about how adding squeeze and excitation could have impact on accuracy , loss
+
+- to check the model architecture , training , code and for more details  please refer [here](GTSRB)
+
+## [Face Similarity](face_match)
+
+- Trained the model to learn the face similarity mapping using siemese networks
+
+- So , that the model can detect the similarity between the same person , dis-similarity between the different person
+
+- to check the model architecture , training , code and for more details  please refer [here](face_match)
+
+## [Poem Generator](poem_generator)
+
+- Train the GRU/LSTM model to learn the poems
+
+- the model can generate the poems , if we provide the trigger word/sentence
+
+- to check the model architecture , experimentations , code and for more details please refer [here](poem_generator)
 
 ## [Covid Twitter Analysis App](covid_twitter_app)
 
