@@ -20,6 +20,10 @@ Got > 60 % accuracy for this hackerearth [challenge](https://www.hackerearth.com
     - Resnet - 18 , 34 , 50 , 101
     - Inception - v1 , v3
 
+
+## [German Traffic Sign Recognition Dataset (GTSRB)](GTSRB)
+
+
 - to check the model architecture , experimentations , code and for more details please refer [here](holiday_challenge)
 
 ## [Covid Twitter Analysis App](covid_twitter_app)
