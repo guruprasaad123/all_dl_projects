@@ -10,6 +10,31 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 - [How to Deal with Imbalanced Data](https://towardsdatascience.com/how-to-deal-with-imbalanced-data-34ab7db9b100)
 
 
+## Strategy
+
+- As we visualized the datasets we got to know that dataset is imbalanced ( not having equal examples on each classes )
+
+- To address this issue , we are doing over-sampling using [WeightedRandomSampler](https://pytorch.org/docs/stable/_modules/torch/utils/data/sampler.html#WeightedRandomSampler) so that the dataset will be balanced while training , Testing , Validation
+
+
+## Model
+
+- We are using the `inception-v3` model , we got above `> 85 %` on test , validation sets
+
+```python
+train_utils - INFO - Training Mean Loss on Epoch:29 = 0.07355931910072885
+train_utils - INFO - train-acc : 97.3433% train-loss : 0.07356
+train_utils - INFO - elapsed time: 678s
+train_utils - INFO - Mean Testing Loss on Epoch:29 = 0.379193115234375
+train_utils - INFO - test-acc : 85.2564% test-loss : 0.37919
+train_utils - INFO - elapsed time: 83s
+train_utils - INFO - Mean validation Loss on Epoch:29 = 0.032135009765625
+train_utils - INFO - val-acc : 100.0000% val-loss : 0.03214
+train_utils - INFO - elapsed time: 3s
+```
+
+
+
 ## Deep Learning | Heathcare
 
 - [Deep Learning in Healthcare — X-Ray Imaging (Part 1 — Basics of X-Rays)](https://towardsdatascience.com/deep-learning-in-healthcare-x-ray-imaging-part-1-basics-of-x-rays-f8e6bad1e421?source=user_profile---------17----------------------------)
