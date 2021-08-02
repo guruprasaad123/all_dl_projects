@@ -21,6 +21,10 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 - We are using the `inception-v3` model , we got above `> 85 %` on test , validation sets
 
+### Training
+
+- the model was trained on GPU instance P5000 for 12 hours , please check the logs [here](logs/inception_v3.log)
+
 ```python
 train_utils - INFO - Training Mean Loss on Epoch:29 = 0.07355931910072885
 train_utils - INFO - train-acc : 97.3433% train-loss : 0.07356
@@ -33,6 +37,13 @@ train_utils - INFO - val-acc : 100.0000% val-loss : 0.03214
 train_utils - INFO - elapsed time: 3s
 ```
 
+### Tensorboard
+
+- you can run tensorboard to visualize the model's performance , sample images by using this command below
+
+    - `tensorboard --logdir=runs --host=localhost --port=8080`
+
+    - open `http://localhost:8080` in browser to check the visualization
 
 
 ## Deep Learning | Heathcare
