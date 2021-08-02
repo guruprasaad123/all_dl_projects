@@ -13,7 +13,7 @@ Application that use cnns (LeNet) to recognize the hand signs (0-5)
 
 ## [Chest Xray Classification Challenge](chest_xray_challenge)
 
-Got `100 %` Accuracy on validation set , `90 %` Accuracy on testing set
+Got `100 %` Accuracy on validation set , `85 %` Accuracy on testing set
 
 - to check the model architecture , training , code and for more details  please refer [here](chest_xray_challenge)
 
