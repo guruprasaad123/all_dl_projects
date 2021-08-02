@@ -66,8 +66,6 @@
 - [[InceptionNet in PyTorch - Jake Tae](https://jaketae.github.io/study/pytorch-inception/)](https://github.com/pytorch/vision/tree/master/torchvision/models)
 - [Image Classification using CNN in PyTorch | by Manish Kumar | Analytics Vidhya | Medium](https://medium.com/analytics-vidhya/image-classification-using-cnn-in-pytorch-65b1968d9e1f)
 
-
-
 ## Inception v-3
 
 ### Training

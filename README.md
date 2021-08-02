@@ -11,6 +11,12 @@ Application that use cnns (LeNet) to recognize the hand signs (0-5)
 
 - to check the frontend for the application please refer [here](sign_dataset/frontend)
 
+## [Chest Xray Classification Challenge](chest_xray_challenge)
+
+Got `100 %` Accuracy on validation set , `90 %` Accuracy on testing set
+
+- to check the model architecture , training , code and for more details  please refer [here](chest_xray_challenge)
+
 ## [Holiday Challenge - Hackerearth](holiday_challenge)
 
 Got > 60 % accuracy for this hackerearth [challenge](https://www.hackerearth.com/problem/machine-learning/holiday-season-11-2c924626)
