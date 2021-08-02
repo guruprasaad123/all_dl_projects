@@ -14,7 +14,7 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 - As we visualized the datasets we got to know that dataset is imbalanced ( not having equal examples on each classes )
 
-- To address this issue , we are doing over-sampling using [WeightedRandomSampler](https://pytorch.org/docs/stable/_modules/torch/utils/data/sampler.html#WeightedRandomSampler) so that the dataset will be balanced while training , Testing , Validation
+- To address this issue , we are doing over-sampling using [WeightedRandomSampler](https://pytorch.org/docs/stable/_modules/torch/utils/data/sampler.html#WeightedRandomSampler) so that the dataset will be balanced while training , testing , validation
 
 
 ## Model
