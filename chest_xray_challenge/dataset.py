@@ -10,25 +10,6 @@ import random
 from itertools import chain
 from functools import lru_cache
 
-def make_weights_for_balanced_classes(images, nclasses):
-    count = [0] * nclasses
-    for item in images:
-        count[item[1]] += 1
-    weight_per_class = [0.] * nclasses
-
-    print('count : ',count)
-
-    N = float(sum(count))
-    for i in range(nclasses):
-        weight_per_class[i] = N/float(count[i])
-
-    print('weight_per_class : ',weight_per_class)
-
-    weight = [0] * len(images)
-    for idx, val in enumerate(images):
-        weight[idx] = weight_per_class[val[1]]
-    return weight
-
 class ChestDataset(Dataset):
 
     def __init__(self,dir_name,transform=None):
@@ -156,21 +137,3 @@ if __name__ == '__main__':
     print('Image : {}'.format(image.shape))
 
     print('Label : {}'.format(label))
-
-    # print('weights : ',train_dataset.sample_weights[idx] )
-
-    # print('Weight : {}'.format(weight))
-
-    # dataset_train = datasets.ImageFolder(train_path)
-
-    # # print('dataset_train ',dataset_train.imgs)
-    # print('classes ',len(dataset_train.classes))
-
-    # # For unbalanced dataset we create a weighted sampler
-    # weights = make_weights_for_balanced_classes(dataset_train.imgs, len(dataset_train.classes))
-
-    # weights = torch.DoubleTensor(weights)
-
-    # print('weight ',torch.unique(weights))
-
-    # print('weight : ',weights[0:5])
